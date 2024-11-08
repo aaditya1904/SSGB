@@ -7,7 +7,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-      <div className="about-holder ">
+      <div className="about-holder  ">
         <h1 className="dark">Welcome to SSGB School</h1>
         <div className="content">
           <img
@@ -15,7 +15,7 @@ export default function Home() {
             alt="Image of School"
             className=" img img-md-fluid "
           />
-          <p>
+          <p className="bg-white text-dark text-start m-0">
             We believe that School should be fun and students should feel loved
             and blessed in a lively environment that nourishes their
             independence. We offer to partner and collaborate with you, valuing
@@ -75,7 +75,6 @@ export default function Home() {
         <li>Maths</li>
         <li>Science</li>
         <li>Commerce</li>
-
       </ul>
     </>
   );
