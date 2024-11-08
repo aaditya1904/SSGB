@@ -3,6 +3,7 @@ import Image from "./download.jpg";
 import "../Bootstrap/bootstrap.bundle.js";
 import "../Bootstrap/bootstrap.css";
 import "./Home.css";
+
 export default function Home() {
   return (
     <>
@@ -12,17 +13,17 @@ export default function Home() {
           <img src={Image} alt="Image of School" className="img" />
           <p>
             We believe that School should be fun and students should feel loved
-            and blessed in a lively enviroment that nourishes their
-            independence. We offer to partner and collaborate with you valuing
+            and blessed in a lively environment that nourishes their
+            independence. We offer to partner and collaborate with you, valuing
             your child’s unique way to a sound growth through a strong
             education. You will see your children enjoying life here as you
             experience their formidable transformation by the culture we harness
             in SSGB.
             <br />
-            Everything has a purpose and SSGB has it in meeting each student’s
+            Everything has a purpose, and SSGB has it in meeting each student’s
             innocent needs and genuine expectations. Children are always at the
-            center of all that we do. They have plentiful of opportunities to
-            interplay with the dynamic Schooling activities they feel happy
+            center of all that we do. They have plentiful opportunities to
+            interact with the dynamic schooling activities they feel happy
             about, enabling them to choose their own pathway to an acclaimed
             life.
           </p>
@@ -44,25 +45,29 @@ export default function Home() {
         </div>
         <br />
         <div className="card-grid row">
-          <div className=" card founder ">
-            <div className="border border-1">founders image</div>
-            <h2> Founder's Desk</h2>
-            SSGB H.S. School was established in 2003 with the vision of
-            providing quality education and fostering an environment that
-            supports holistic development. Founded by Adv. Devendra Singh
-            Rajput, our school has grown to become a well-respected institution
-            known for its commitment to academic excellence and the well-being
-            of its students.
+          <div className="col-12 col-sm-6 col-md-4">
+            <div className="card founder">
+              <div className="border border-1">founders image</div>
+              <h2> Founder's Desk</h2>
+              SSGB H.S. School was established in 2003 with the vision of
+              providing quality education and fostering an environment that
+              supports holistic development. Founded by Adv. Devendra Singh
+              Rajput, our school has grown to become a well-respected institution
+              known for its commitment to academic excellence and the well-being
+              of its students.
+            </div>
           </div>
-          <div className=" card principal ">
-            <div className="border border-1">founders image</div>
-            <h2> Principal's Desk</h2>
-            SSGB H.S. School was established in 2003 with the vision of
-            providing quality education and fostering an environment that
-            supports holistic development. Founded by Mrs. Kanchan Rajput, our
-            school has grown to become a well-respected institution known for
-            its commitment to academic excellence and the well-being of its
-            students.
+          <div className="col-12 col-sm-6 col-md-4">
+            <div className="card principal">
+              <div className="border border-1">founders image</div>
+              <h2> Principal's Desk</h2>
+              SSGB H.S. School was established in 2003 with the vision of
+              providing quality education and fostering an environment that
+              supports holistic development. Founded by Mrs. Kanchan Rajput, our
+              school has grown to become a well-respected institution known for
+              its commitment to academic excellence and the well-being of its
+              students.
+            </div>
           </div>
         </div>
       </div>
