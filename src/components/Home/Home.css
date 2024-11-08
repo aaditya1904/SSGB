@@ -1,0 +1,29 @@
+.img {
+    margin-right: 11px;
+    width: 449px;
+    height: 285px;
+    float: right;
+}
+
+.about-holder {
+    margin-left: 150px;
+}
+
+.founder,
+.principal {
+    text-align: center;
+    padding: 25px;
+    width: 400px;
+
+    &:hover {
+        box-shadow: 10px 10px 15px 5px #8888887d;
+        transition: box-shadow 0.3s ease-in-out; 
+    }
+}
+
+.card-grid {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 25px;
+    justify-content: space-evenly;
+}
