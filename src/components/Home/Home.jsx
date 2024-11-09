@@ -7,7 +7,9 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-      <div className="about-holder  ">
+      
+
+      <div className="about-holder">
         <h1 className="dark">Welcome to SSGB School</h1>
         <div className="content">
           <img
@@ -69,7 +71,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <ul><b><h5>These are the subjects taught by our teachers</h5></b>
+      <div className="hiring"></div>
+      <ul>
+        <b>
+          <h5>These are the subjects taught by our teachers</h5>
+        </b>
         <li>Hindi</li>
         <li>English</li>
         <li>Maths</li>

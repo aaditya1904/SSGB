@@ -3,12 +3,14 @@ import '../Bootstrap/bootstrap.bundle.js';
 import '../Bootstrap/bootstrap.css';        
 import { Link } from 'react-router-dom';
 import "./Header.css";
+import icon from './school logo.png'
+
 
 export default function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-md" style={{ backgroundColor: "#7AB2D3" }}>
-        <div className='border border-primary m-2'>Here will be icon</div>
+        <div className='border border-primary m-2'><img src={icon} alt="school logo" className='img-fluid' /></div>
         <button
           className="navbar-toggler"
           type="button"

@@ -1,31 +1,48 @@
 .img {
-    margin-right: 11px;
-    max-width: 100%;
-    width: 500px;
-    float: right;
+  margin-right: 11px;
+  max-width: 100%;
+  width: 500px;
+  float: right;
 }
 
 .about-holder {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .founder,
 .principal {
-    text-align: center;
-    padding: 25px;
-    width: auto;
-    max-width: 400px;
+  text-align: center;
+  padding: 25px;
+  width: auto;
+  max-width: 400px;
 
-    &:hover {
-        box-shadow: 10px 10px 15px 5px #8888887d;
-        transition: box-shadow 0.3s ease-in-out; 
-    }
+  &:hover {
+    box-shadow: 10px 10px 15px 5px #8888887d;
+    transition: box-shadow 0.3s ease-in-out;
+  }
 }
 
-
 .card-grid {
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 25px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  justify-content: space-evenly;
+}
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
